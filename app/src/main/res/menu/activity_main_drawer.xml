@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/videoFragment"
+            android:icon="@drawable/ic_video"
+            android:title="Видео" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_car"
+            android:title="ПДД" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="Таблица штрафов" />
+        <item
+            android:id="@+id/nav_road_signs"
+            android:icon="@drawable/ic_car_road"
+            android:title="Дорожные знаки" />
+    </group>
+</menu>
